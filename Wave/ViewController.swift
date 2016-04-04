@@ -77,7 +77,7 @@ class ViewController: UIViewController {
             CGContextSetStrokeColorWithColor(context, color)
             
             CGContextMoveToPoint(context, (CGFloat(i) / CGFloat(self.audioPCMBuffer.frameLength)) * (imgSize?.width)!,  (imgSize?.height)! * 0.5)
-            CGContextAddLineToPoint(context, (CGFloat(i) / CGFloat(self.audioPCMBuffer.frameLength)) * (imgSize?.width)!, CGFloat(floatBuffer[0][i]) * 50.0 + (imgSize?.height)! * 0.5)
+            CGContextAddLineToPoint(context, (CGFloat(i) / CGFloat(self.audioPCMBuffer.frameLength)) * (imgSize?.width)!, (imgSize?.height)! * 0.5 - CGFloat(floatBuffer[0][i]) * 50.0)
             
             CGContextClosePath(context)
             CGContextStrokePath(context)
@@ -156,7 +156,7 @@ class ViewController: UIViewController {
                 CGContextSetStrokeColorWithColor(context, color)
                 
                 CGContextMoveToPoint(context, (CGFloat(i) / CGFloat(self.samplaRate / 2)) * (imgSize?.width)!,  0)
-                CGContextAddLineToPoint(context, (CGFloat(i) / CGFloat(self.samplaRate / 2)) * (imgSize?.width)!, CGFloat(distance))
+                CGContextAddLineToPoint(context, (CGFloat(i) / CGFloat(self.samplaRate / 2)) * (imgSize?.width)!, (imgSize?.height)! -  CGFloat(distance))
                 
                 CGContextClosePath(context)
                 CGContextStrokePath(context)
