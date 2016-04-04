@@ -14,6 +14,7 @@
 		180AEC3F1CB2B2A70050B8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180AEC3D1CB2B2A70050B8D3 /* LaunchScreen.storyboard */; };
 		180AEC4A1CB2B2A70050B8D3 /* WaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEC491CB2B2A70050B8D3 /* WaveTests.swift */; };
 		180AEC551CB2B2A70050B8D3 /* WaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEC541CB2B2A70050B8D3 /* WaveUITests.swift */; };
+		B0D280B30FE6F5AF5CE5A41D /* 1-02 A_Z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0D28A30A218A75E1F263AA3 /* 1-02 A_Z.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		180AEC501CB2B2A70050B8D3 /* WaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		180AEC541CB2B2A70050B8D3 /* WaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveUITests.swift; sourceTree = "<group>"; };
 		180AEC561CB2B2A70050B8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D28A30A218A75E1F263AA3 /* 1-02 A_Z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "1-02 A_Z.mp3"; path = "Resource/1-02 A_Z.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		180AEC331CB2B2A70050B8D3 /* Wave */ = {
 			isa = PBXGroup;
 			children = (
+				180AEC621CB2B80F0050B8D3 /* Resource */,
 				180AEC341CB2B2A70050B8D3 /* AppDelegate.swift */,
 				180AEC361CB2B2A70050B8D3 /* ViewController.swift */,
 				180AEC381CB2B2A70050B8D3 /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				180AEC561CB2B2A70050B8D3 /* Info.plist */,
 			);
 			path = WaveUITests;
+			sourceTree = "<group>";
+		};
+		180AEC621CB2B80F0050B8D3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B0D28A30A218A75E1F263AA3 /* 1-02 A_Z.mp3 */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 				180AEC3F1CB2B2A70050B8D3 /* LaunchScreen.storyboard in Resources */,
 				180AEC3C1CB2B2A70050B8D3 /* Assets.xcassets in Resources */,
 				180AEC3A1CB2B2A70050B8D3 /* Main.storyboard in Resources */,
+				B0D280B30FE6F5AF5CE5A41D /* 1-02 A_Z.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
